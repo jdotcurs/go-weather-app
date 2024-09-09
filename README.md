@@ -43,11 +43,6 @@ This project is a weather forecast application that provides a 16-day hourly for
 
 4. Open a web browser and navigate to `http://localhost:8080`.
 
-## API Endpoints
-
-- GET `/`: Serves the main HTML page
-- GET `/forecast`: Fetches weather forecast data (requires latitude, longitude, and timezone parameters)
-
 ## What This Project Demonstrates
 
 ### Go Backend Development:
