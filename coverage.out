@@ -1,0 +1,15 @@
+mode: set
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:35.46,40.2 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:42.116,46.16 3 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:46.16,48.3 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:49.2,51.38 2 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:51.38,53.3 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:55.2,56.68 2 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:56.68,58.3 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:60.2,68.16 3 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:68.16,70.3 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:72.2,72.46 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:72.46,74.17 2 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:74.17,76.4 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:77.3,77.23 1 1
+github.com/jdotcurs/go-weather-app/internal/weather/weather.go:80.2,80.22 1 1
