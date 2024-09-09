@@ -1,6 +1,6 @@
 # Weather Forecast Application
 
-This project is a weather forecast application that provides a 16-day hourly forecast for precipitation probability, temperature, and cloud cover. It's built with Go for the backend API and uses HTML/JavaScript with Chart.js for the frontend. The application demonstrates skills in full-stack development, API integration, and data visualization.
+This project is a weather forecast application that provides a 16-day hourly forecast for precipitation probability, temperature, and cloud cover. It's built with Go for the backend API and uses HTML/JavaScript with Chart.js for the frontend. The application demonstrates skills in full-stack development, API integration, data visualization and Docker containerization.
 
 ## Features
 
@@ -31,14 +31,14 @@ This project is a weather forecast application that provides a 16-day hourly for
 
 2. Clone the repository:
    ```
-   git clone https://github.com/yourusername/weather-forecast-app.git
-   cd weather-forecast-app
+   git clone https://github.com/jdotcurs/go-weather-app.git
+   cd go-weather-app
    ```
 
 3. Build and run the project:
    ```
    go build
-   ./weather-forecast-app
+   ./go-weather-app
    ```
 
 4. Open a web browser and navigate to `http://localhost:8080`.
@@ -56,6 +56,9 @@ This project is a weather forecast application that provides a 16-day hourly for
 - JSON encoding/decoding
 - Error handling and appropriate HTTP status codes
 - External API integration (Open-Meteo)
+- Reverse geocoding (OpenStreetMap Nominatim)
+- Timezone handling
+
 
 ### Code Organization:
 - Structuring a Go application
@@ -88,8 +91,51 @@ This project serves as a portfolio piece, demonstrating:
 - Code organization and best practices in Go
 - Test-Driven Development (TDD) approach
 - Handling of time zones and geolocation data
+- Docker containerization
 
 It's designed to showcase a range of skills in both backend and frontend development, as well as the ability to work with real-world data and APIs.
+
+
+# Dockerized Version
+
+## Prerequisites
+
+- Docker
+- Docker Compose
+
+## Getting Started
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/jdotcurs/go-weather-app.git
+   cd go-weather-app
+   ```
+
+2. Build and run the Docker container:
+   ```
+   docker compose up --build
+   ```
+
+3. Access the application:
+   Open your web browser and navigate to `http://localhost:8080`
+
+## Development
+
+To make changes to the application:
+
+1. Modify the Go code or HTML templates as needed.
+2. Rebuild and restart the Docker container:
+   ```
+   docker compose up --build
+   ```
+
+## Stopping the Application
+
+To stop the running Docker container:
+
+```
+docker compose down
+```
 
 ## Testing
 
@@ -121,5 +167,4 @@ go tool cover -html=coverage.out
 - Implement caching to reduce API calls
 - Add more weather parameters (wind speed, humidity, etc.)
 - Enhance error handling and input validation
-- Containerize the application using Docker
 - Implement a more sophisticated UI with responsive design
